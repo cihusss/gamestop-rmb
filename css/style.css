@@ -60,12 +60,12 @@ body {
 
 #logo {
   align-self: center;
-  margin: 0 4rem 0 0;
+  margin: 0 4vw 0 0;
   width: 9rem;
 }
 
 #headline {
-  font-size: 2.2vw;
+  font-size: 2.6vw;
   line-height: 2.4vw;
 }
 
@@ -194,7 +194,7 @@ body {
     line-height: 3.2vw;
   }
   #logo {
-    margin: 0 2rem 0 0;
+    margin: 0 3vw 0 0;
     width: 7rem;
   }
   .button {
