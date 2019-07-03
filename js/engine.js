@@ -99,7 +99,7 @@ function collapseAd(event) {
   parent.parent.document.getElementById(iframeID).style.height = "115px";
   document.getElementById("ad").style.height = "115px";
   document.getElementById("panel").style.display = "none";
-  jwplayer().stop();
+  jwplayer().pause();
   injectPixel(4464953);
   expand = 0;
 }
