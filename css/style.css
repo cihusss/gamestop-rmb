@@ -98,11 +98,14 @@ body {
 
 .button {
   width: auto;
-  padding: 8px 32px 8px 32px;
+  padding: 1.025rem 1.125rem;
+  font-size: .75rem;
+  line-height: 1.2;
+  border-radius: 6px;
+  border: none;
   text-align: center;
   line-height: 1.4em;
   cursor: pointer;
-  background-color: #E52614;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -112,6 +115,8 @@ body {
   position: absolute;
   right: 4.6rem;
   transition: background .5s;
+  background-image: linear-gradient(-180deg,#f94f3d,#da362c);
+  background-repeat: repeat-x;
 }
 
 .button:hover {
